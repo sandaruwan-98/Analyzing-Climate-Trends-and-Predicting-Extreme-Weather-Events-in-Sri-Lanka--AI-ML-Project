@@ -17,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         "rain_sum" => $_POST["rain_sum"]
     ];
 
-    $url = "https://us-central1-weather-423517.cloudfunctions.net/function-1";
+    $url = "https://function-1";
     $options = [
         "http" => [
             "header"  => "Content-type: application/json\r\n",
