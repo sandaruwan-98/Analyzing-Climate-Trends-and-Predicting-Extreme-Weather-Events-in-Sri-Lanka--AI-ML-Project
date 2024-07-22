@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather Prediction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather Prediction</h1>
+        <form id="weatherForm">
+            <label for="temperature">Today's Temperature in Celsius(°C)</label>
+            <input type="number" id="temperature" name="apparent_temperature_mean" required>
+            
+            <label for="rain">Today's Rain in millimeters (mm)</label>
+            <input type="number" id="rain" name="rain_sum" required>
+            
+            <button type="submit">Predict</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
